@@ -186,7 +186,7 @@ export default function GestureDetector({ isOpen, onClose }: GestureDetectorProp
       toast.success('Virtual try-on completed!', { id: 'process' });
     } catch (error) {
       console.error('Virtual try-on failed:', error);
-      toast.error('Virtual try-on failed', { id: 'process' });
+      toast.error('Virtual try-on failed.', { id: 'process' });
     }finally {
       setIsProcessingImage(false);
     }
